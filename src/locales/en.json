@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "title": "CS AI Academy",
+    "dashboard": "Dashboard",
+    "scenarios": "Training Scenarios",
+    "history": "History",
+    "settings": "Settings",
+    "agent": "Agent Trainee",
+    "level": "Level 3 Support"
+  },
+  "dashboard": {
+    "welcome": "Welcome back, Agent",
+    "ready": "Ready to improve your customer support skills today?",
+    "completed": "Simulations Completed",
+    "avgScore": "Average Score",
+    "hours": "Training Hours",
+    "recommended": "Recommended Next",
+    "deescalation": "De-escalation Techniques",
+    "deescalationDesc": "Practice handling angry customers and turning negative experiences into positive ones.",
+    "start": "Start Training",
+    "recent": "Recent Activity",
+    "scenario": "Scenario",
+    "date": "Date",
+    "score": "Score",
+    "status": "Status",
+    "passed": "Passed",
+    "excellent": "Excellent",
+    "needsReview": "Needs Review",
+    "today": "Today, 10:30 AM",
+    "yesterday": "Yesterday",
+    "date1": "Mar 14, 2026"
+  },
+  "scenarios": {
+    "title": "Training Scenarios",
+    "subtitle": "Select a scenario to start a simulated chat session.",
+    "start": "Start Simulation",
+    "mood": "Customer Mood",
+    "mins": "~5 mins",
+    "items": {
+      "1": {
+        "title": "The Angry Late Delivery",
+        "description": "A customer is furious because their expedited package is 3 days late.",
+        "difficulty": "Intermediate",
+        "customerPersona": "Impatient, frustrated, expects immediate compensation.",
+        "customerMood": "Angry",
+        "issue": "Package tracking shows it has been stuck in transit for 3 days despite paying for overnight shipping.",
+        "initialMessage": "Where is my package?! I paid $30 for overnight shipping three days ago and it's still not here! This is completely unacceptable!"
+      },
+      "2": {
+        "title": "Confused Elderly User",
+        "description": "An older user is having trouble resetting their password.",
+        "difficulty": "Beginner",
+        "customerPersona": "Not tech-savvy, easily confused, polite but frustrated with themselves.",
+        "customerMood": "Confused",
+        "issue": "Cannot figure out how to reset password. Keeps clicking the wrong link.",
+        "initialMessage": "Hello dear, I'm trying to log into my account to see my grandson's photos but it says my password is wrong. I don't know how to fix it."
+      },
+      "3": {
+        "title": "Billing Dispute",
+        "description": "A customer was charged twice for their monthly subscription.",
+        "difficulty": "Advanced",
+        "customerPersona": "Suspicious, demands a refund immediately, threatens to dispute with bank.",
+        "customerMood": "Suspicious",
+        "issue": "Double charge on credit card for the monthly subscription fee.",
+        "initialMessage": "I just checked my bank statement and you guys charged me twice this month! I want a refund right now or I'm calling my bank to report fraud."
+      },
+      "4": {
+        "title": "Feature Request",
+        "description": "A power user wants a feature that does not exist yet.",
+        "difficulty": "Beginner",
+        "customerPersona": "Enthusiastic, knowledgeable, slightly demanding.",
+        "customerMood": "Eager",
+        "issue": "Wants a dark mode feature that is currently not on the roadmap.",
+        "initialMessage": "Hi team! I love the app, but I really need a dark mode. I use it at night and it's blinding. When is this coming out?"
+      }
+    }
+  },
+  "simulator": {
+    "back": "Back to Scenarios",
+    "end": "End & Evaluate",
+    "evaluating": "Evaluating...",
+    "placeholder": "Type your response to the customer...",
+    "hint": "Press Enter to send, Shift+Enter for new line.",
+    "evaluation": "Session Evaluation",
+    "empathy": "Empathy",
+    "resolution": "Resolution",
+    "professionalism": "Professionalism",
+    "strengths": "Strengths",
+    "areas": "Areas for Improvement",
+    "feedback": "Overall Feedback",
+    "error": "I'm sorry, I'm having trouble connecting right now. Please try again.",
+    "evalError": "We couldn't generate an evaluation at this time due to a network error. Please review the transcript manually."
+  }
+}
